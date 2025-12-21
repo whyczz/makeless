@@ -1,0 +1,16 @@
+[project]
+name = "makeless"
+version = "0.1.0"
+description = "learn by copying karpathy's makemore"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "torch>=2.9.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+]
