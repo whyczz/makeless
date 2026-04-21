@@ -13,7 +13,7 @@ This is my rigorous, daily checklist for Andrej Karpathy's `makemore` series (Vi
   - [x] Load the `names.txt` dataset and explore it [[00:03:04]](https://youtu.be/PaCmpygFfXo?t=3m4s).
   - [x] Create character-to-integer (`stoi`) and integer-to-character (`itos`) mappings.
   - [x] Build a 2D integer tensor `N` of shape `[27, 27]` to count bigram frequencies [[00:09:26]](https://youtu.be/PaCmpygFfXo?t=9m26s).
-  - [?] Visualize the count matrix using `matplotlib.pyplot.imshow`.
+  - [x] Visualize the count matrix using `matplotlib.pyplot.imshow`.
 - [ ] **Day 2: Probability, Broadcasting, & Loss**
   - [ ] Convert the `N` matrix into a probability matrix `P` [[00:25:31]](https://youtu.be/PaCmpygFfXo?t=25m31s).
   - [ ] **Checkpoint:** Understand PyTorch Broadcasting semantics. Watch Karpathy demonstrate the `keepdim=True` bug [[00:41:44]](https://youtu.be/PaCmpygFfXo?t=41m44s). Do not skip this.

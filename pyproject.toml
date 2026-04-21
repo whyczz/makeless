@@ -3,10 +3,11 @@ name = "makeless"
 version = "0.1.0"
 description = "learn by copying karpathy's makemore"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
     "torch>=2.9.1",
 ]
 
